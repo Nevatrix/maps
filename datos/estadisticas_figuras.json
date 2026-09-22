@@ -1,0 +1,41 @@
+{
+  "cruce": {
+    "latitud": -12.092275,
+    "longitud": -77.033338,
+    "puntos_de_cruce_de_calzadas": 4
+  },
+  "centro_zoom": {
+    "latitud": -12.094535,
+    "longitud": -77.033355
+  },
+  "desplazamiento_sur_m": 250,
+  "lado_zoom_m": 1000,
+  "aristas_zoom": 338,
+  "longitud_zoom_km": 24.714,
+  "distritos_zoom": {
+    "San Isidro": 338
+  },
+  "min_total_11": 58.01,
+  "min_total_18": 88.1,
+  "aumento_pct": 51.9,
+  "por_tipo": {
+    "principal": {
+      "aristas": 49,
+      "longitud_km": 4.351,
+      "min_11": 9.14,
+      "min_18": 18.27
+    },
+    "secundaria": {
+      "aristas": 96,
+      "longitud_km": 7.15,
+      "min_11": 17.16,
+      "min_18": 28.6
+    },
+    "local": {
+      "aristas": 193,
+      "longitud_km": 13.213,
+      "min_11": 31.71,
+      "min_18": 41.22
+    }
+  }
+}

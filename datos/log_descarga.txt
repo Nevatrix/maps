@@ -1,0 +1,44 @@
+Descargando Miraflores...
+  [OK] 'Miraflores, Lima, Peru': 1492 nodos, 2942 aristas
+Descargando San Isidro...
+  [OK] 'San Isidro, Lima, Peru': 1508 nodos, 2964 aristas
+Descargando Surquillo...
+  [OK] 'Surquillo, Lima, Peru': 935 nodos, 2003 aristas
+Grafo unido: 3559 nodos, 7277 aristas (172 nodos fuera del área y 2 aislados eliminados, 0 nodos en límite compartido)
+
+Validación de conteos (mín. 1500 total, 500 por distrito):
+            nodos_totales  intersecciones
+distrito                                 
+Miraflores           1364            1339
+San Isidro           1355            1323
+Surquillo             840             791
+TOTAL                3559            3453
+  Con nodos totales: CUMPLE
+  Con intersecciones reales (street_count >= 3): CUMPLE
+
+Av. Javier Prado: 96 aristas (nombres: ['Avenida Javier Prado Este', 'Avenida Javier Prado Oeste'])
+  solo con 'highway' de OSM: {'principal': 83, 'secundaria': 13}
+     13 x highway=secondary  'Avenida Javier Prado Este'  (reclasificada por AVENIDAS_PRINCIPALES)
+  clasificación final:       {'principal': 96}
+  => Av. Javier Prado sale como 'principal': SÍ
+
+Av. Arequipa: 78 aristas (nombres: ['Avenida Arequipa'])
+  solo con 'highway' de OSM: {'secundaria': 78}
+     78 x highway=secondary  'Avenida Arequipa'  (reclasificada por AVENIDAS_PRINCIPALES)
+  clasificación final:       {'principal': 78}
+  => Av. Arequipa sale como 'principal': SÍ
+
+Validación Haversine vs. 'length' de OSMnx:
+  diferencia absoluta promedio: 0.0025 m (máx. 0.006 m, relativa 0.0062 %)
+  longitud total: Haversine 599.33 km vs OSMnx 599.331 km
+
+==================================================
+PARA JOEL
+==================================================
+  Distritos: Miraflores, San Isidro, Surquillo
+  V (nodos)   = 3559
+  E (aristas) = 7277
+  (incluye 12 aristas paralelas u->v adicionales y 13 lazos u->u)
+  Componentes débilmente conexas: 1; mayor componente fuertemente conexa: 3478 nodos
+  Archivos: datos/nodos.csv, datos/aristas.csv
+==================================================

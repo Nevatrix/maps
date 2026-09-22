@@ -1,0 +1,79 @@
+{
+  "fecha_descarga": "2026-09-21",
+  "hora_descarga": "13:35",
+  "osmnx_version": "2.1.1",
+  "networkx_version": "3.7",
+  "distritos": [
+    "Miraflores",
+    "San Isidro",
+    "Surquillo"
+  ],
+  "nombres_usados": {
+    "Miraflores": "Miraflores, Lima, Peru",
+    "San Isidro": "San Isidro, Lima, Peru",
+    "Surquillo": "Surquillo, Lima, Peru"
+  },
+  "frontera": {
+    "fuera_eliminados": 172,
+    "aislados_eliminados": 2,
+    "en_limite": 0
+  },
+  "criterio_frontera": "polígono del distrito que contiene al nodo; en empate, el primero de la lista",
+  "componentes_debiles": 1,
+  "mayor_componente_fuerte": 3478,
+  "conteos": {
+    "Miraflores": {
+      "nodos_totales": 1364,
+      "intersecciones": 1339
+    },
+    "San Isidro": {
+      "nodos_totales": 1355,
+      "intersecciones": 1323
+    },
+    "Surquillo": {
+      "nodos_totales": 840,
+      "intersecciones": 791
+    },
+    "TOTAL": {
+      "nodos_totales": 3559,
+      "intersecciones": 3453
+    }
+  },
+  "cumple_nodos_totales": true,
+  "cumple_intersecciones": true,
+  "verificacion_avenidas": {
+    "Javier Prado": {
+      "aristas": 96,
+      "por_tipo_osm": {
+        "principal": 83,
+        "secundaria": 13
+      },
+      "por_tipo_final": {
+        "principal": 96
+      },
+      "principal_ok": true
+    },
+    "Arequipa": {
+      "aristas": 78,
+      "por_tipo_osm": {
+        "secundaria": 78
+      },
+      "por_tipo_final": {
+        "principal": 78
+      },
+      "principal_ok": true
+    }
+  },
+  "aristas_reclasificadas_por_nombre": 91,
+  "validacion_haversine": {
+    "dif_media_m": 0.0025,
+    "dif_max_m": 0.006,
+    "dif_relativa_media_pct": 0.0062,
+    "longitud_total_haversine_km": 599.33,
+    "longitud_total_osmnx_km": 599.331
+  },
+  "V": 3559,
+  "E": 7277,
+  "aristas_paralelas": 12,
+  "lazos": 13
+}
