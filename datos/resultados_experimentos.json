@@ -1,0 +1,51 @@
+{
+  "V": 3559,
+  "E": 7277,
+  "kosaraju": {
+    "ms": 6.45,
+    "componentes": 59,
+    "mayor_componente": 3478,
+    "nodos_fuera": 81
+  },
+  "pares": 60,
+  "horas": [
+    11,
+    18
+  ],
+  "ms_promedio": {
+    "dijkstra": 1.811,
+    "dijkstra_tiempo": 3.455,
+    "bfs": 0.892,
+    "bellman_ford": 37.275
+  },
+  "ms_mediana": {
+    "dijkstra": 1.745,
+    "dijkstra_tiempo": 3.349,
+    "bfs": 0.85,
+    "bellman_ford": 36.79
+  },
+  "dijkstra_nodos_extraidos_promedio": 1963.2,
+  "rutas_que_cambian_11_vs_18": 54,
+  "aumento_tiempo_18_vs_11_pct": 56.6,
+  "bfs_mas_lento_que_dijkstra_pct": 15.8,
+  "bellman_ford_igual_a_dijkstra": true,
+  "modelo_tiempo_vs_fijo": {
+    "horas": [
+      7.5,
+      9.5,
+      16.5,
+      20.5
+    ],
+    "consultas": 240,
+    "diferencia_promedio_min": 0.16,
+    "diferencia_maxima_min": 0.79,
+    "rutas_distintas": 22
+  },
+  "floyd_warshall_subgrafo": {
+    "V": 183,
+    "E": 309,
+    "ms": 52.8,
+    "dijkstra_ms_promedio": 0.036,
+    "coincide_con_dijkstra": true
+  }
+}
