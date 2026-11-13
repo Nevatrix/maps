@@ -1,0 +1,4 @@
+# solo lo que necesita la interfaz (lo usa Render).
+# para descargar datos, figuras y pruebas usar requirements.txt
+nicegui==4.0.0
+shapely==2.1.2

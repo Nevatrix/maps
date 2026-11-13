@@ -8,6 +8,7 @@ y la hora se corre dijkstra_tiempo; BFS se corre aparte para comparar.
 """
 
 import json
+import os
 import time
 
 from nicegui import ui
@@ -437,4 +438,6 @@ def pagina():
 
 
 if __name__ in {"__main__", "__mp_main__"}:
-    ui.run(title="Rutas Lima", port=8080, reload=False, show=False)
+    # en Render el puerto viene en la variable PORT; en la compu se usa el 8080
+    ui.run(title="Rutas Lima", host=os.environ.get("HOST", "127.0.0.1"),
+           port=int(os.environ.get("PORT", 8080)), reload=False, show=False)
