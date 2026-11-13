@@ -1,3 +1,6 @@
 .venv/
 cache/
 __pycache__/
+.claude/
+entrega/
+src/figuras_tb2.py
