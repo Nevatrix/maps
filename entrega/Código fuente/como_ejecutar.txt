@@ -1,0 +1,16 @@
+Necesita Python 3.12 o superior. La carpeta Dataset tiene que estar al lado
+de esta carpeta (Código fuente), porque de ahí se leen los CSV.
+
+1. Abrir una terminal dentro de "Código fuente".
+
+2. Instalar las librerías:
+
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+
+3. Levantar la interfaz:
+
+python src/app.py
+
+y abrir http://localhost:8080 en el navegador.
